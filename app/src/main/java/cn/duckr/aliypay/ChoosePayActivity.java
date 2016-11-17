@@ -27,7 +27,7 @@ public class ChoosePayActivity extends AppCompatActivity implements CompoundButt
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //初始化微信支付
+        //初始化微信支付////github测试测试
         final IWXAPI msgApi = WXAPIFactory.createWXAPI(this, null);
         //注册APP到微信
         msgApi.registerApp("wxd930ea5d5a258f4f");
